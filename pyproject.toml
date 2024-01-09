@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "performance-oracle-prototype"
+version = "0.1.0"
+description = ""
+authors = ["George <geogre.a@lido.fi>"]
+readme = "README.md"
+packages = [{include = "performance_oracle_prototype"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 119
